@@ -3,10 +3,7 @@
 		"http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 	<mappers>
-		<mapper resource="com/pojo/ReceiptPerson.xml" />
-		<mapper resource="com/pojo/Area.xml" />
-		<mapper resource="com/pojo/City.xml" />
-		<mapper resource="com/pojo/Province.xml" />
-
+		<mapper resource="com/pojo/GoodInfo.xml"/>
+		<mapper resource="com/pojo/GoodStyle.xml"/>
 	</mappers>
 </configuration>
